@@ -8,3 +8,5 @@
   
   semodule -i mypol.pp
   ```
+2.   ng-bootstrap `Unexpected token <`   
+fix bug:  https://github.com/valor-software/ng2-bootstrap/issues/50#issuecomment-165448962
