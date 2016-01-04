@@ -14,3 +14,5 @@ fix bug:  https://github.com/valor-software/ng2-bootstrap/issues/50#issuecomment
    close the SELinux   https://github.com/cuitianze/BugEveryday/issues/1
 4.   centos nginx 502 `connect() failed (111: Connection refused) while connecting to upstream`   
    restart pm2 process
+5. centos connect vpn    
+    http://www.apelearn.com/bbs/thread-6740-1-1.html
