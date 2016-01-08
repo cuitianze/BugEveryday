@@ -7,8 +7,9 @@
   grep chrome /var/log/audit/audit.log | audit2allow -M mypol
   
   semodule -i mypol.pp
-  ```
-2.   ng-bootstrap `Unexpected token <`   
+  ```   
+  https://github.com/cuitianze/BugEveryday/issues/1
+2.   ng2-bootstrap `Unexpected token <`   
 fix bug:  https://github.com/valor-software/ng2-bootstrap/issues/50#issuecomment-165448962
 3.   centos nginx 502  `connect() to 127.0.0.1:3000 failed (13: Permission denied) while connecting to upstream`   
    close the SELinux   https://github.com/cuitianze/BugEveryday/issues/1
